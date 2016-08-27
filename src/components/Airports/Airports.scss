@@ -1,0 +1,33 @@
+.inputsContainer {
+  display: flex;
+  justify-content: space-around;
+}
+
+.airportLabel {
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+
+.autocompleteContainer {
+  width: 350px;
+  margin-top: 10px;
+}
+
+.airportNameContainer {
+  border-bottom: 1px solid grey;
+  cursor: default;
+  padding: 5px;
+}
+
+.airportNameContainer:hover {
+  background-color: aqua;
+}
+
+.mapAndDistanceContainer {
+  margin-top: 20px;
+}
+
+.mapContainer {
+  margin-top: 20px;
+  height: 600px;
+}
