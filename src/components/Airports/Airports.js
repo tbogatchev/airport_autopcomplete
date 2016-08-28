@@ -38,7 +38,8 @@ class Airports extends React.Component {
     const script = document.createElement("script");
 
     // Normally this would be an env variable
-    const GOOGLE_API_KEY = 'AIzaSyDpjys6emRBi5KV9gX47hqOSibbzftWgsA'
+    const GOOGLE_API_KEY = 'YOUR API KEY HERE';
+
     script.src = `http://maps.google.com/maps/api/js?key=${GOOGLE_API_KEY}&libraries=geometry`;
     script.async = true;
 
